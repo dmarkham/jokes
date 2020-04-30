@@ -15,7 +15,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-// start time 23:22
+// work time 23:22 - 01.19
 type name struct {
 	FirstName string `json:"first_name,omitempty"`
 	LastName  string `json:"last_name,omitempty"`
