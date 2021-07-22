@@ -20,7 +20,7 @@ Fetching a name
 $ curl https://names.mcquay.me/api/v0/
 {“first_name”:“Hasina”,“last_name”:“Tanweer”}
 Fetching a joke
-$ curl ‘http://api.icndb.com/jokes/random?firstName=John&lastName=Doe&limitTo=\[nerdy\]’
+$ curl "http://api.icndb.com/jokes/random?firstName=John&lastName=Doe&limitTo=nerdy"
 { “type”: “success”, “value”: { “id”: 181, “joke”: “John Doe’s OSI network model has only one layer - Physical.“, “categories”: [“nerdy”] } }
 Using the new web service
 $ curl ‘http://localhost:5000’
